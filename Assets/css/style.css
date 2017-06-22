@@ -1,0 +1,42 @@
+#logoimg {
+	width: 300px;
+	height: auto;
+	margin-top: 10px;
+}
+#background {
+	width: 100%;
+	height: 759px;
+	min-height: 100%;
+	background-color: #eeeeee;
+	background-image: url("../Images/it-background-5.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#bigbtn {
+	width: 100px;
+	height: 100px;
+}
+
+#bigicon {
+	font-size: 75px;
+	margin-top: 20px;
+}
+#contactmetext {
+	margin-top: 3px;
+}
+#newnav {
+	box-shadow: none;
+}
+#QuoteModalSendBtn {
+	margin-top: 11px;
+}
+#dropdown1 {
+	background-color: transparent;
+	box-shadow: none;
+	margin-left: 100px;
+}
+#linkedinlogo, #facebooklogo, #instagramlogo, #vklogo, #googlepluslogo {
+	width: 35px;
+	height: auto;
+}
