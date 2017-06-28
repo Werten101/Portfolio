@@ -58,7 +58,8 @@
       <h4>Получить бесплатную котировку</h4>
       <div class="row">
     <!-- contact us form within modal -->
-    <form class="col s12">
+    <form action="https://formspree.io/akwebdevcontact@gmail.com"
+      method="POST" class="col s12">
       <div class="row">
         <div class="input-field col s6">
           <input id="first_name" type="text" class="validate">
@@ -87,13 +88,14 @@
           <label for="email">Эл. адрес</label>
         </div>
       </div>
-    </form>
+    <!-- </form> -->
   </div>
     </div>
     <!-- contact us modal footer -->
     <div class="modal-footer">
-      <a href="#!" class="blue modal-action modal-close waves-effect waves-light btn-flat"><h6 id="QuoteModalSendBtn" class="white-text">Отправить</h6></a>
+      <a href="#!" class="blue modal-action modal-close waves-effect waves-light btn-flat"><input type="submit" value="Отправить" id="QuoteModalSendBtn" class="white-text"></a>
     </div>
+    </form>
   </div>
 
   <!-- container div and background close -->
