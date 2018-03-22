@@ -43,3 +43,16 @@
 #introtext {
 	font-size: 30px;
 }
+#feedback_name {
+	font-size: 30px;
+}
+#footer1 {
+	height: 30px;
+	position: absolute;
+	margin-top: 300px;
+	margin-bottom: 0;
+	min-width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+
+}
